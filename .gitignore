@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# build
+.nuxt
+
+# generate
+dist
+storybook-static
+
+# env
+.env
+.envrc
+
+# sw
+sw.*
