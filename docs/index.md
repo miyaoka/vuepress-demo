@@ -2,11 +2,11 @@
 home: true
 heroImage: /hero.png
 actionText: Get Started →
-actionLink: /nav/
+actionLink: /guide/
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-# README
+# Vue in markdown
 
 <ol>
 <li v-for="i in 3">{{ i }} </li>

@@ -1,10 +1,28 @@
 module.exports = {
   title: 'VuePress',
   description: 'Vue-powered Static Site Generator',
-  head: [['link', { rel: 'icon', href: `/logo.png` }]],
-  serviceWorker: true,
   themeConfig: {
     repo: 'vuejs/vuepress',
-    docsDir: 'docs'
+    editLinks: true,
+    docsDir: 'docs',
+    nav: [
+      {
+        text: 'nav',
+        link: '/nav/'
+      },
+      {
+        text: 'nav2',
+        link: '/nav2/'
+      }
+    ],
+    sidebar: {
+      '/nav/': [
+        {
+          title: 'Nav1',
+          collapsable: false,
+          children: ['', 'page1', 'page2']
+        }
+      ]
+    }
   }
 }
